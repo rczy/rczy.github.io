@@ -1,0 +1,14 @@
+import{c as N,b as v,t as z}from"./Te15ARKB.js";import{h as C,W as P,a0 as Q,F as V,a1 as Z,B as p,Y as $,X as M,$ as tt}from"./Z6j43i41.js";import{p as e,i as et}from"./D2KKUjeC.js";import{t as at,e as nt,i as it,s as ot}from"./6b4lP7aF.js";import{o as st}from"./DVUUTyWX.js";function b(n,t,g,r){var l=n.__style;if(C||l!==t){var i=at(t);(!C||i!==n.getAttribute("style"))&&(i==null?n.removeAttribute("style"):n.style.cssText=i),n.__style=t}return r}const rt=["🏅","🏆","💪","🎯","🔥","🏋️‍♂️","🏋️‍♀️","🏃‍♂️","🏃‍♀️","🤸‍♂️","🤸‍♂️"],yt=()=>rt.map(n=>`url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><text y="50%" font-size="120">${n}</text></svg>')`);var lt=z('<div class="confetti svelte-15ksp55"></div>'),dt=z("<div></div>");function ht(n,t){P(t,!0);const g=e(t,"size",3,10),r=e(t,"x",19,()=>[-.5,.5]),l=e(t,"y",19,()=>[.25,1]),i=e(t,"duration",3,2e3),d=e(t,"infinite",3,!1),c=e(t,"delay",19,()=>[0,50]),y=e(t,"colorRange",19,()=>[0,360]),f=e(t,"colorArray",19,()=>[]),R=e(t,"amount",3,50),u=e(t,"iterationCount",3,1),k=e(t,"fallDistance",3,"100px"),A=e(t,"rounded",3,!1),B=e(t,"cone",3,!1),D=e(t,"noGravity",3,!1),F=e(t,"xSpread",3,.15),G=e(t,"destroyOnComplete",3,!0),O=e(t,"disableForReducedMotion",3,!1);let h=Q(!1);st(()=>{!G()||d()||typeof u()=="string"||setTimeout(()=>V(h,!0),(i()+c()[1])*u())});function a(s,o){return Math.random()*(o-s)+s}function S(){return f().length?f()[Math.round(Math.random()*(f().length-1))]:`hsl(${Math.round(a(y()[0],y()[1]))}, 75%, 50%)`}var x=N(),T=Z(x);{var j=s=>{var o=dt();let _;nt(o,21,()=>({length:R()}),it,(m,ct)=>{var w=lt();M((L,U,W,X,Y,q,E,H,I,J,K)=>b(w,`
+        --color: ${L??""};
+        --skew: ${U??""}deg,${W??""}deg;
+        --rotation-xyz: ${X??""}, ${Y??""}, ${q??""};
+        --rotation-deg: ${E??""}deg;
+        --translate-y-multiplier: ${H??""};
+        --translate-x-multiplier: ${I??""};
+        --scale: ${J??""};
+        --transition-delay: ${K??""}ms;
+        --transition-duration: ${(d()?`calc(${i()}ms * var(--scale))`:`${i()}ms`)??""};`),[S,()=>a(-45,45),()=>a(-45,45),()=>a(-10,10),()=>a(-10,10),()=>a(-10,10),()=>a(0,360),()=>a(l()[0],l()[1]),()=>a(r()[0],r()[1]),()=>.1*a(2,10),()=>a(c()[0],c()[1])]),v(m,w)}),tt(o),M(m=>{_=ot(o,1,"confetti-holder svelte-15ksp55",null,_,m),b(o,`
+    --fall-distance: ${k()??""};
+    --size: ${g()??""}px;
+    --x-spread: ${1-F()};
+    --transition-iteration-count: ${(d()?"infinite":u())??""};`)},[()=>({rounded:A(),cone:B(),"no-gravity":D(),"reduced-motion":O()})]),v(s,o)};et(T,s=>{p(h)||s(j)})}v(n,x),$()}export{ht as C,yt as g,b as s};
